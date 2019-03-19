@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>CCI FISAT</title>
+      <link href="cci1.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.main-nav li a
+{
+  color: black;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+</head> 
+<body bgcolor="GhostWhite">
+    <header>  
+    <div class="row">
+    <ul class="main-nav">    
+        <li><a href="cci.html"><b> HOME</b> </a></li>
+        <li><a href="about.html"><b> ABOUT</b> </a></li>
+        <li><a href="cci1.html"><b>CONTACT</b> </a></li>
+        
+    </ul>    
+    
+    </div>
+   <div class="hero">
+   <h3>Get In Touch</h3>
+   </div>
+   <div class="container">
+   <form action="action_page.php">
+
+     <label for="fname">First Name</label>
+     <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+     <label for="lname">Last Name</label>
+     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+     <label for="country">Country</label>
+     <select id="choose your country" name="choose your country">
+       <option value="choose Your country">choose your country</option>
+       <option value="INDIA">INDIA</option>
+       <option value="usa">USA</option>
+     </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit"> 
+
+  </form>
+  </div>
+   </header>
+</body>
+</html>
+
