@@ -1,0 +1,48 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.main-nav
+{
+    
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 1250px;
+}
+.main-nav li
+{
+  display: inline-block;
+}
+
+
+.main-nav li.active a
+{
+   border: 1px solid black;
+}
+.main-nav li a:hover
+{
+  border:2px solid black;
+}
+.hero
+{
+  position: center;
+  width:300px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+
+h3
+{
+  color: black;
+  text-transition: uppercase;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom:30px;
+  font-family:"Lucida Console", Monaco, monospace;
+}
+.row
+{
+  max-width: 12000px;
+  margin: auto;
+}
