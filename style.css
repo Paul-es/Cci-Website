@@ -1,0 +1,108 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    background-color: #23415c;
+    padding: 1% 0;
+    font-size: 1.2em;
+    font-family:"Lucida Console", Monaco, monospace;
+}
+.logo img{
+  width: 200px;
+  margin-bottom:0px;
+    
+}
+.navbar-default .navbar-nav li a {
+    color: #d5d5d5;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+     color: #FFF;
+}
+#home {
+    background: url(pro.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    font-family:"Lucida Console", Monaco, monospace;
+    margin-bottom: 100px;
+}
+.landing-text {
+    text-align: center;
+    vertical-align: middle;
+    margin-top:430px;
+    margin-left: 10px;
+    font-family:"Lucida Console", Monaco, monospace;
+}
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700%;
+}
+.padding {
+    padding: 80px 0;
+    font-family:"Lucida Console", Monaco, monospace;
+}
+.padding img {
+    width: 100%;
+}
+#fixed {
+    background: url(background.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+footer {
+    width: 100%;
+    background-color: #23415c;
+    padding: 5% 5% 10% 5%;
+    color: #FFF;
+    font-family:"Lucida Console", Monaco, monospace;
+}
+.fa {
+    padding: 25px;
+    font-size: 65px;
+    color: black;
+}
+.fa:hover {
+    color:white;
+    text-decoration: none;
+}
+.icon {
+    max-width: 200px;
+}
+@media (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 300%;
+    }
+}
+.button
+{
+  margin-top:50px;
+  margin-left:10px;
+  text-align: center;
+}
+.btn
+{
+  border: 2px solid black;
+  padding: 0px 10px;
+  color: black;
+  text-decoration: none;
+  margin-right: 2px;
+  font-size: 16px;
+}
+.btn-one:hover
+{
+  background-color: darkorange;
+  font-family:"Lucida Console", Monaco, monospace;
+  transition: all 0.3s ease-in;
+}
+.btn-two:hover
+{
+  background-color: darkorange;
+  font-family:"Lucida Console", Monaco, monospace;
+  transition: all 0.3s ease-in;
+}
